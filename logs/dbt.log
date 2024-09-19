@@ -81,3 +81,33 @@ Runtime Error
 [0m02:32:54.163238 [debug] [MainThread]: Command `dbt run` failed at 02:32:54.163190 after 0.04 seconds
 [0m02:32:54.163443 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1071524d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1071ca850>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1071a6290>]}
 [0m02:32:54.163633 [debug] [MainThread]: Flushing usage events
+[0m09:45:51.066867 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108a00cd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108d76c10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108d77110>]}
+
+
+============================== 09:45:51.071755 | f73e88be-7e52-4797-8f2e-f7b08c12fa5b ==============================
+[0m09:45:51.071755 [info ] [MainThread]: Running with dbt=1.8.6
+[0m09:45:51.072070 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/amrutha/.dbt', 'version_check': 'True', 'debug': 'False', 'log_path': 'logs', 'fail_fast': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'introspect': 'True', 'invocation_command': 'dbt docs generate', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m09:45:51.072358 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path /Users/amrutha/Documents/GitHub/dbt-tutorial/dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m09:45:51.260965 [debug] [MainThread]: Resource report: {"command_name": "generate", "command_wall_clock_time": 0.2095245, "process_user_time": 0.472397, "process_kernel_time": 0.071178, "process_mem_max_rss": "93437952", "command_success": false, "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m09:45:51.261665 [debug] [MainThread]: Command `dbt docs generate` failed at 09:45:51.261565 after 0.21 seconds
+[0m09:45:51.262014 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108d6ca50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108d8b7d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104eac590>]}
+[0m09:45:51.262304 [debug] [MainThread]: Flushing usage events
+[0m09:47:20.275420 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104ed0190>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104ed3cd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104ed3f90>]}
+
+
+============================== 09:47:20.277736 | 7f9ab689-cc4d-4b44-a95e-42c068833aac ==============================
+[0m09:47:20.277736 [info ] [MainThread]: Running with dbt=1.8.6
+[0m09:47:20.278069 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/amrutha/.dbt', 'version_check': 'True', 'warn_error': 'None', 'log_path': 'logs', 'debug': 'False', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'static_parser': 'True', 'invocation_command': 'dbt docs generate', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m09:47:20.278355 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path /Users/amrutha/Documents/GitHub/dbt-tutorial/dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m09:47:20.279751 [debug] [MainThread]: Resource report: {"command_name": "generate", "command_wall_clock_time": 0.032454457, "process_user_time": 0.473462, "process_kernel_time": 0.088519, "process_mem_max_rss": "93749248", "command_success": false, "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m09:47:20.280061 [debug] [MainThread]: Command `dbt docs generate` failed at 09:47:20.280013 after 0.03 seconds
+[0m09:47:20.280232 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x100f1e250>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x100f1e0d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x100f1df50>]}
+[0m09:47:20.280391 [debug] [MainThread]: Flushing usage events
